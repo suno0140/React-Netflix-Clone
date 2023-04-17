@@ -23,7 +23,7 @@ const Row = ({ isLargeRow, title, id, fetchUrl }) => {
           <span className="arrow">{"<"}</span>
         </div>
       </div>
-      <div id={id} className="row__posterssetMovies">
+      <div id={id} className="row__posters">
         {movies.map((movie) => (
           <img
             key={movie.id}
